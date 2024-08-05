@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" onkeydown="myFunction(event)">
+<head>
+    <meta charset="UTF-8">
+    <title>Jump Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="game-heading">Jump Game</h2>
+        <p id="instruction">Press space to jump</p>
+        <div class="game" onclick="jump()">
+            <div id="character"></div>
+            <div id="block"></div>
+            <div id="block2"></div>
+        </div>
+        <p class="score">Score: <span id="scoreSpan"></span></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
